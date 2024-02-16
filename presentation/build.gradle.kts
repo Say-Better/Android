@@ -31,6 +31,13 @@ android {
         jvmTarget = JavaVersion.VERSION_17.toString()
     }
 
+    buildFeatures {
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.1"
+    }
+
 }
 
 dependencies {
@@ -55,4 +62,7 @@ dependencies {
     //바텀네비
     implementation ("androidx.navigation:navigation-compose:2.7.6")
     implementation ("androidx.compose.material:material:1.6.1")
+
+    implementation ("androidx.compose.material:material-icons-extended:1.6.1")
+    implementation ("androidx.activity:activity-compose:1.8.2")
 }
