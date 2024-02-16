@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">sayBetter</string>
     <string name="default_web_client_id">121204436671-vsprbo82fccuvpfsefdpv4smi7mm3qna.apps.googleusercontent.com</string>
+    <string name="default_web_client_id1">1:121204436671:android:24d9bb252e7fead067200a</string>
 </resources>
