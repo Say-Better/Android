@@ -1,7 +1,8 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
-    id ("com.google.gms.google-services") //구글서비스 추가
+    id ("com.google.gms.google-services")
+
 }
 
 android {
@@ -25,11 +26,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_17.toString()
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
 
     buildFeatures {
@@ -81,5 +82,5 @@ dependencies {
     // Declare the dependency for the Firebase Authentication library
     // When using the BoM, you don't specify versions in Firebase library dependencies
     implementation ("com.google.firebase:firebase-auth")
-    implementation ("com.google.android.gms:play-services-auth:21.0.0")
+
 }
