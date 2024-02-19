@@ -17,6 +17,16 @@
 </p>
 </br>
 
+
+<br>
+
+## App Architecture
+<p align="center">
+<img src="./presentation/src/main/res/drawable/system_app.png" width="600px" alt="SayBetter system" />
+</p>
+</br>
+
+
 <br>
 
 ## File-Tree
@@ -102,11 +112,6 @@
 </br>
 
 
-<br>
-
-## App Architecture
-
-</br>
 
 <br>
 
